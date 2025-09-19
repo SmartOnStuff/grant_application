@@ -3,7 +3,8 @@
 ## Team and Experience
 
 * **Marton Szaplonczay - Founder, Lead Architect / Dev**
-  Lead Architect in Fortune 500 company's enterprise architecture team with specialized focus on AI and automation systems. Combines enterprise-grade technical expertise with startup agility and innovation mindset. Deep understanding of scalable system design, AI implementation, and automated trading algorithms. Proven ability to deliver sophisticated technical solutions within enterprise constraints while maintaining startup-level speed and adaptability.
+  
+Lead Architect in Fortune 500 company's enterprise architecture team with specialized focus on AI and automation systems. Combines enterprise-grade technical expertise with startup agility and innovation mindset. Deep understanding of scalable system design, AI implementation, and automated trading algorithms. Proven ability to deliver sophisticated technical solutions within enterprise constraints while maintaining startup-level speed and adaptability.
 
 * **Marketing & Community Lead**
   Experienced marketing professional who successfully guided LazaiTrader through competitive development programs, managing community engagement, user acquisition, and brand positioning strategies. Expertise in crypto community dynamics, social media growth, and technical product marketing. Core contributor to building and maintaining the 200+ active tester community while achieving significant market recognition.
