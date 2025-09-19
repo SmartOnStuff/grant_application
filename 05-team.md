@@ -1,23 +1,25 @@
-# Instructions
-
-- remove the instructions section when done
-- talk about the team and their experience
-- tell us about the special sauce that will make you successful
-- stay close to the recommended length (0.5 page)
-
-# Team
+# 05. Team
 
 ## Team and Experience
 
-* **Gandalf the Grey – Chief Architect**
-  Gandalf brings deep technical mastery and strategic foresight in decentralized systems architecture, with extensive experience in protocol design, cryptographic security, and blockchain governance. His proven track record in building resilient, trustless solutions is unmatched.
+* **Marton Szaplonczay - Founder, Lead Architect & Dev**
+  Lead Architect in Fortune 500 company's enterprise architecture team with specialized focus on AI and automation systems. Combines enterprise-grade technical expertise with startup agility and innovation mindset. Deep understanding of scalable system design, AI implementation, and automated trading algorithms. Proven ability to deliver sophisticated technical solutions within enterprise constraints while maintaining startup-level speed and adaptability.
 
-* **Aragorn – Product Lead**
-  Aragorn's leadership and product execution skills are central to the Uniswap V2 vision. With extensive experience leading diverse teams, managing complex projects, and driving user-centric product development, Aragorn ensures disciplined delivery aligned with user needs.
+* **Marketing & Community Lead**
+  Experienced marketing professional who successfully guided LazaiTrader through competitive development programs, managing community engagement, user acquisition, and brand positioning strategies. Expertise in crypto community dynamics, social media growth, and technical product marketing. Core contributor to building and maintaining the 200+ active tester community while achieving significant market recognition.
 
-* **Legolas – Lead Developer**
-  Legolas combines precise technical execution with exceptional agility in Ethereum smart contract development. Known for meticulous code quality, rapid iteration, and sharp debugging skills, he ensures Uniswap V2’s codebase remains secure, efficient, and reliable.
+* **External AI Consultant**
+  Senior AI specialist from reputable consulting corporation providing strategic guidance on machine learning algorithms, trading model optimization, and AI system architecture. Brings enterprise-level AI implementation experience and advanced algorithmic trading expertise to ensure platform competitiveness and technical excellence.
+
+* **External Infrastructure Consultant**
+  Infrastructure architect from established consulting firm specializing in scalable blockchain systems, security implementation, and high-performance trading infrastructure. Provides critical expertise in system reliability, security protocols, and enterprise-grade infrastructure design for financial applications.
 
 ## Special Sauce
 
-The team uniquely combines Gandalf’s visionary protocol expertise, Aragorn’s strategic product execution, and Legolas’s technical precision and agility—forming a resilient, innovative, and efficient unit positioned to revolutionize decentralized exchanges.
+**Enterprise-Meets-Startup Excellence:** The team uniquely combines Fortune 500 enterprise architecture experience with startup innovation speed, ensuring LazaiTrader delivers enterprise-grade reliability while maintaining rapid development cycles and user-centric design.
+
+**Proven Market Execution:** The team has successfully navigated competitive blockchain development environments, built and maintained an engaged 200+ user community, and demonstrated measurable trading performance (82.15% ROI) - proving ability to execute from concept to market validation.
+
+**Strategic Consulting Network:** Access to reputable consulting expertise in both AI and infrastructure domains provides the team with enterprise-level guidance while maintaining lean operational structure and cost efficiency.
+
+**Revenue-First Philosophy:** Unlike teams focused on theoretical value propositions, this team has built a sustainable, proven business model that generates revenue through user success, with clear path to profitability and scalable growth trajectory.
