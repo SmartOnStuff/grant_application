@@ -2,7 +2,7 @@
 
 ## Team and Experience
 
-* **Marton Szaplonczay - Founder, Lead Architect & Dev**
+* **Marton Szaplonczay - Founder, Lead Architect & Dev **
   Lead Architect in Fortune 500 company's enterprise architecture team with specialized focus on AI and automation systems. Combines enterprise-grade technical expertise with startup agility and innovation mindset. Deep understanding of scalable system design, AI implementation, and automated trading algorithms. Proven ability to deliver sophisticated technical solutions within enterprise constraints while maintaining startup-level speed and adaptability.
 
 * **Marketing & Community Lead**
