@@ -1,40 +1,60 @@
-# Instructions
-
-- remove the instructions section when done
-- describe the current development state of the project?
-- explaint needs to be done for the successful launch of the project?
-- tell us about your anticipated timeline for the completion? 
-- propose milestones for the grant payout
-    - at most 25% can be used pre-deployment
-    - user adoption and traction-oriented milestones are preferred
-- stay close to the recommended length (1 page)
-
-# Roadmap and Budget
+# 06. Roadmap and Milestones
 
 ## Current Development State
 
-Uniswap V2 is currently at the prototype stage, with core smart contract logic defined and preliminary security testing completed in a local environment.
+LazaiTrader has achieved significant milestones with recognition in a competitive blockchain development program, **200+ active testers**, and **verified live trading performance** of 82.15% ROI over 95 days with 126 documented trades. The platform is currently operational on testnet infrastructure with proven algorithm performance and established user community. The project is transitioning from incubation phase to production deployment, ready for Zircuit ecosystem integration.
+
+**Key Accomplishments:**
+* Live trading algorithm with verified 82.15% ROI performance
+* 5 years of backtesting validation on ETH-USDC pairs
+* Functional Telegram interface with multi-persona AI trading system
+* Strategy Vault with privacy-preserving analytics
+* Ultra-low operating cost structure ($30/month) ensuring sustainability
+* Break-even threshold achieved (15+ profitable users required, 200+ active testers)
 
 ## Tasks Required for Successful Launch
 
-* Full security audits and contract optimization.
-* Final implementation of flash swaps and price oracle functionality.
-* Development and deployment of the front-end user interface.
-* Community outreach, documentation, and initial liquidity seeding.
+* **Zircuit Network Integration:** Complete migration and optimization for Zircuit testnet and mainnet deployment with enhanced performance and security features.
+* **Gud.tech Trading Engine Integration:** Deep integration with Gud.tech's advanced trading infrastructure for superior execution and liquidity access.
+* **Enhanced AI Capabilities:** Upgrade trading algorithms and expand persona offerings based on user feedback and market analysis.
+* **Infrastructure Migration:** Transition from file-based system to secure encrypted database architecture for improved scalability and security.
+* **Production Readiness:** Implement comprehensive risk management protocols, security audits, and real capital trading capabilities.
 
 ## Anticipated Timeline
 
-* **Month 1-2:** Final smart contract development and audit.
-* **Month 3:** Front-end integration, comprehensive testing, and mainnet deployment.
-* **Month 4-5:** Community engagement, liquidity incentivization, and user onboarding.
+* **Months 1-2:** Platform stabilization, Zircuit testnet integration, and Gud.tech trading engine implementation
+* **Months 3-4:** Enhanced AI development, infrastructure migration, and mainnet preparation
+* **Months 5-6:** Production deployment, user onboarding, and ecosystem integrations
 
 ## Proposed Milestones and Budget
 
-| Milestone                                | Timeline  | Budget Allocation |
-| ---------------------------------------- | --------- | ----------------- |
-| Smart contract audit & test deployment   | Month 1-2 | \$37,500 (25%)    |
-| Mainnet launch & initial liquidity pools | Month 3   | \$30,000 (20%)    |
-| Achieve \$1M liquidity in pools          | Month 4   | \$40,000 (27%)    |
-| Reach \$5M cumulative trading volume     | Month 5   | \$42,500 (28%)    |
+| Milestone | Timeline | Budget Allocation | Success Criteria |
+|-----------|----------|------------------|------------------|
+## Proposed Milestones and Budget
 
-Total Budget: **\$150,000**
+| Milestone | Timeline | Budget Allocation | Success Criteria |
+|-----------|----------|------------------|------------------|
+| **Testnet Optimization & Zircuit Integration** | Month 1-2 | $18,750 (25%) | • Platform stability improvements completed<br>• Dynamic wallet generation system implemented<br>• Zircuit testnet integration successful<br>• Gud.tech trading engine Phase 1 integration<br>• User feedback analysis from 200+ testers documented<br>• FAQ system and support documentation published |
+| **Enhanced Infrastructure & Advanced Features** | Month 3 | $15,000 (20%) | • Database migration from file-based to encrypted system<br>• Enhanced AI trading personas with improved algorithms<br>• Advanced user interface with better visualization<br>• 250+ active testnet users achieved<br>• Performance monitoring and analytics systems deployed |
+| **Mainnet Launch & Production Deployment** | Month 4 | $15,000 (20%) | • Zircuit mainnet deployment successful<br>• Real capital trading enabled with risk management protocols<br>• Revenue generation model operational (15% profit sharing)<br>• 30-50 users with live funds trading<br>• $3,000+ Total Value Locked milestone |
+| **User Growth & Ecosystem Integration** | Month 5 | $13,500 (18%) | • 75-100 active users with live capital trading<br>• $8,000+ Total Value Locked achieved<br>• Zircuit liquidity hub integration initiated<br>• Advanced analytics dashboard for users<br>• Revenue sustainability demonstrated ($1,200+ generated)<br>• Community growth to 500+ social media followers |
+| **Scale & Advanced Features** | Month 6 | $12,750 (17%) | • 150+ active users milestone<br>• $30,000+ TVL achieved<br>• Full Gud.tech integration optimization completed<br>• Advanced portfolio management features<br>• Privacy withdrawal feature (optional)<br>• Platform established as recognized Zircuit trading solution<br>• $2,250+ monthly revenue run rate |
+
+**Total Grant Request: $75,000**
+
+## Extended Roadmap (Post-Grant)
+
+**Months 7-12:**
+* Cross-chain expansion beyond Zircuit
+* Advanced portfolio management tools  
+* Enhanced privacy features and withdrawals
+* Community governance features
+
+## Extended Roadmap (Post-Grant)
+
+**Months 7-12:**
+* Cross-chain expansion beyond Zircuit
+* Institutional client features and API access
+* Advanced portfolio management tools
+* Community governance implementation
+* Enhanced privacy features and withdrawals
