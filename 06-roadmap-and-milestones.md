@@ -2,12 +2,6 @@
 
 ## Current Development State
 
-LazaiTrader has achieved significant milestones with recognition in a competitive blockchain development program, **200+ active testers**, and **verified live trading performance** of 82.15% ROI over 95 days with 126 documented trades. The platform is currently operational on testnet infrastructure with proven algorithm performance and established user community. The project is transitioning from incubation phase to production deployment, ready for Zircuit ecosystem integration.
-
-# 06. Roadmap and Milestones
-
-## Current Development State
-
 LazaiTrader has successfully completed proof-of-concept with remarkable achievements: **HyperHack 2025 winner** ($30,000 total prize), **200+ active testers**, and **verified live trading performance** of 82.15% ROI over 95 days with 126 documented trades. Originally developed on Metis, the platform is currently operational on testnet infrastructure with proven algorithm performance and established user community. The project is transitioning from incubation phase to production deployment, ready for Zircuit ecosystem integration.
 
 **Key Accomplishments:**
