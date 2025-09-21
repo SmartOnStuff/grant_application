@@ -4,7 +4,7 @@
 
 LazaiTrader is an intelligent multi-agent trading system accessible through Telegram that transforms crypto trading by allowing users to select specialized AI trading personas, each with distinct strategies and risk profiles. The platform addresses the critical problem that in bull markets, crypto asset holders often miss significant opportunities for active trading profits by focusing solely on passive yield strategies. Manual trading is emotionally taxing, requires constant market monitoring, and demands technical analysis skills many users lack.
 
-The system continuously analyzes market conditions and either generates actionable buy/sell signals or automatically executes trades across major DEXs based on user preference. By leveraging advanced AI algorithms that move beyond traditional indicators, LazaiTrader provides institutional-grade trading strategies to retail users through a familiar messaging interface.
+The system continuously analyzes market conditions and either generates actionable buy/sell signals or automatically executes trades across major DEXs based on user preference. **For automated execution, LazaiTrader implements a non-custodial architecture where users maintain complete control of their private keys while enabling AI agents to execute trades on their behalf.** By leveraging advanced AI algorithms that move beyond traditional indicators, LazaiTrader provides institutional-grade trading strategies to retail users through a familiar messaging interface.
 
 ## **Closest Competitor**
 
@@ -14,11 +14,13 @@ The closest competitor is 3Commas, a popular automated trading platform that off
 
 * **AI Trading Personas:** Unlike 3Commas' generic bot configurations, LazaiTrader offers specialized AI trading personas that match individual trading philosophies - from momentum trading to contrarian approaches - allowing users to select strategies that align with their temperament and risk tolerance.
 
+* **True Non-Custodial Architecture:** While 3Commas requires users to provide API keys to centralized exchanges, LazaiTrader implements a secure wallet system where users retain complete control of their private keys while enabling automated trading execution.
+
 * **Telegram-Native Interface:** While 3Commas requires web-based interaction, LazaiTrader operates entirely through Telegram, providing a more accessible and intuitive user experience that leverages a platform users already know and trust.
 
 * **Advanced Market Analysis:** LazaiTrader employs momentum-based strategies, volatility-adaptive approaches, and liquidity flow analysis rather than relying solely on traditional technical indicators, providing more sophisticated market insights.
 
-* **Dual-Mode Operation:** The platform offers both signal-only notifications for manual traders and fully automated execution for hands-off investors, providing flexibility that traditional bot platforms lack.
+* **Dual-Mode Operation:** The platform offers both signal-only notifications for manual traders and fully automated execution with secure non-custodial management for hands-off investors, providing flexibility that traditional bot platforms lack.
 
 * **Zircuit-Native Integration:** Built specifically for the Zircuit ecosystem with planned integration to Gud.tech's trading engine and Zircuit's liquidity hub, providing optimized performance and deep liquidity access that competitors cannot match.
 
