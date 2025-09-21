@@ -21,7 +21,7 @@ File Contents
 
 LazaiTrader is an intelligent multi-agent trading system accessible through Telegram that transforms crypto trading by allowing users to select specialized AI trading personas, each with distinct strategies and risk profiles. The platform addresses the critical problem that in bull markets, crypto asset holders often miss significant opportunities for active trading profits by focusing solely on passive yield strategies. Manual trading is emotionally taxing, requires constant market monitoring, and demands technical analysis skills many users lack.
 
-The system continuously analyzes market conditions and either generates actionable buy/sell signals or automatically executes trades across major DEXs based on user preference. By leveraging advanced AI algorithms that move beyond traditional indicators, LazaiTrader provides institutional-grade trading strategies to retail users through a familiar messaging interface.
+The system continuously analyzes market conditions and either generates actionable buy/sell signals or automatically executes trades across major DEXs based on user preference. **For automated execution, LazaiTrader implements a non-custodial architecture where users maintain complete control of their private keys while enabling AI agents to execute trades on their behalf.** By leveraging advanced AI algorithms that move beyond traditional indicators, LazaiTrader provides institutional-grade trading strategies to retail users through a familiar messaging interface.
 
 ## **Closest Competitor**
 
@@ -31,11 +31,13 @@ The closest competitor is 3Commas, a popular automated trading platform that off
 
 * **AI Trading Personas:** Unlike 3Commas' generic bot configurations, LazaiTrader offers specialized AI trading personas that match individual trading philosophies - from momentum trading to contrarian approaches - allowing users to select strategies that align with their temperament and risk tolerance.
 
+* **True Non-Custodial Architecture:** While 3Commas requires users to provide API keys to centralized exchanges, LazaiTrader implements a secure wallet system where users retain complete control of their private keys while enabling automated trading execution.
+
 * **Telegram-Native Interface:** While 3Commas requires web-based interaction, LazaiTrader operates entirely through Telegram, providing a more accessible and intuitive user experience that leverages a platform users already know and trust.
 
 * **Advanced Market Analysis:** LazaiTrader employs momentum-based strategies, volatility-adaptive approaches, and liquidity flow analysis rather than relying solely on traditional technical indicators, providing more sophisticated market insights.
 
-* **Dual-Mode Operation:** The platform offers both signal-only notifications for manual traders and fully automated execution for hands-off investors, providing flexibility that traditional bot platforms lack.
+* **Dual-Mode Operation:** The platform offers both signal-only notifications for manual traders and fully automated execution with secure non-custodial management for hands-off investors, providing flexibility that traditional bot platforms lack.
 
 * **Zircuit-Native Integration:** Built specifically for the Zircuit ecosystem with planned integration to Gud.tech's trading engine and Zircuit's liquidity hub, providing optimized performance and deep liquidity access that competitors cannot match.
 
@@ -52,9 +54,14 @@ LazaiTrader stands uniquely positioned to democratize sophisticated trading stra
 
 LazaiTrader is an intelligent multi-agent trading system built on a robust technical architecture that combines AI-powered trading personas with seamless Telegram integration. The platform utilizes Model Context Protocol (MCP) technology to maintain coherent understanding across interactions, remembering user preferences, portfolio composition, and past decisions. The system operates through specialized AI agents that analyze market conditions using advanced algorithms beyond traditional technical indicators.
 
+**Non-Custodial Security:** The platform implements a secure architecture where users maintain full control of their private keys while enabling AI agents to execute authorized trading operations, eliminating custodial risk while providing automation capabilities.
+
 The core architecture includes a Strategy Vault system that securely analyzes trading data through privacy-preserving Trusted Execution Environment (TEE) technology, enabling personalized recommendations based on collective performance data while maintaining individual privacy.
 
 ## Technical Novelty
+
+* **Secure Non-Custodial Architecture:**
+  Advanced wallet architecture where users maintain complete control of private keys while enabling AI agents to perform authorized trading operations. This eliminates custodial risk while providing sophisticated automation capabilities.
 
 * **Multi-Agent Trading Personas:**
   LazaiTrader introduces specialized AI trading personas, each representing different trading philosophies (momentum, swing, technical analysis, contrarian). This approach allows users to select strategies that match their temperament while leveraging institutional-grade algorithms.
@@ -66,12 +73,15 @@ The core architecture includes a Strategy Vault system that securely analyzes tr
   Unlike traditional trading bots that rely on basic technical indicators, LazaiTrader uses momentum-based strategies, volatility-adaptive approaches, and liquidity flow analysis to identify smart money movements before price reactions occur.
 
 * **Telegram-Native Trading Interface:**
-  The system provides a complete trading experience through Telegram's messaging interface, eliminating the need for complex web applications while maintaining full functionality for strategy selection, visualization, and execution.
+  The system provides a complete trading experience through Telegram's messaging interface, including secure wallet integration, eliminating the need for complex web applications while maintaining full functionality.
 
 * **Strategy Vault with TEE:**
   A privacy-preserving system that allows users to contribute trading data to a collective knowledge base stored in a Trusted Execution Environment, enabling personalized recommendations without compromising individual privacy.
 
 ## Technical Feasibility
+
+* **Secure Wallet Infrastructure:**
+  Non-custodial wallet architecture with fine-grained permissions leverages proven concepts from DeFi delegation frameworks, ensuring security and reliability while maintaining user control.
 
 * **Proven Telegram Bot Framework:**
   Telegram's bot API provides a robust, scalable infrastructure with extensive documentation and established developer ecosystem, ensuring reliable message delivery and user interaction management.
@@ -80,13 +90,14 @@ The core architecture includes a Strategy Vault system that securely analyzes tr
   The platform leverages established AI/ML frameworks for market analysis and strategy optimization, with proven libraries for technical analysis, pattern recognition, and automated decision-making.
 
 * **Blockchain Integration Capabilities:**
-  Smart contract integration for DEX trading is well-established technology with mature SDKs and APIs available for most major blockchain networks, ensuring reliable trade execution.
+  Secure DEX trading integration is well-established technology with mature SDKs and APIs available for EVM-compatible networks, ensuring reliable trade execution.
 
 * **TEE Technology:**
   Trusted Execution Environments are mature technology with proven implementations in enterprise applications, providing secure computation capabilities for the Strategy Vault system.
 
 ## Required Infrastructure
 
+* **Secure Wallet Infrastructure:** Production-ready wallet management system with proper access controls and security mechanisms
 * **Zircuit Network Integration:** Native deployment on Zircuit testnet and mainnet for optimal performance and access to network-specific features
 * **Gud.tech Trading Engine Integration:** Deep integration with Gud.tech's advanced trading infrastructure for enhanced execution capabilities and liquidity access
 * **Real-time Market Data Feeds:** Reliable price feeds and market data APIs for accurate trading signals and strategy execution
@@ -97,22 +108,22 @@ The core architecture includes a Strategy Vault system that securely analyzes tr
 
 ## Anticipated Execution Difficulty
 
+* **Security Implementation and Auditing:**
+  The non-custodial wallet system requires extensive security auditing and testing to ensure proper access controls and protection against potential exploits. This represents a high priority technical challenge requiring thorough code review and formal verification.
+
 * **AI Model Training and Optimization:**
   Developing and fine-tuning AI trading personas requires extensive backtesting, market data analysis, and continuous optimization. The challenge lies in creating models that perform consistently across different market conditions while maintaining distinct personality characteristics.
 
 * **Real-time Market Integration:**
-  Ensuring low-latency market data feeds and trade execution across multiple DEXs requires robust infrastructure and careful optimization. Network congestion and execution delays could impact trading performance, requiring sophisticated retry mechanisms and alternative routing.
+  Ensuring low-latency market data feeds and trade execution across multiple DEXs requires robust infrastructure and careful optimization. Gas management and execution costs add complexity that requires sophisticated retry mechanisms and alternative routing.
 
 * **User Experience Design:**
-  Creating an intuitive Telegram interface that can handle complex trading strategies while remaining accessible to non-technical users presents significant UX challenges. The interface must balance simplicity with comprehensive functionality.
+  Creating an intuitive Telegram interface that can handle secure wallet management and complex trading strategies while remaining accessible to non-technical users presents significant UX challenges. Users must understand the security model without being overwhelmed by technical details.
 
-* **Security and Risk Management:**
-  Implementing robust security measures for user funds and trading strategies, including secure key management, transaction validation, and fraud detection systems, requires careful architecture and extensive testing.
+* **Cross-Contract Integration:**
+  Managing interactions between user wallets, DEX contracts, and the Gud.tech trading engine requires careful orchestration and error handling to ensure reliable execution and proper fund recovery mechanisms.
 
-* **Scalability Considerations:**
-  As the platform grows, managing increasing numbers of concurrent users, trading strategies, and market data processing will require careful infrastructure planning and optimization.
-
-Overall, the technical feasibility is high due to mature underlying technologies (Telegram bots, AI/ML frameworks, blockchain integration). The novel combination of these technologies presents manageable execution risks with appropriate development resources and phased implementation approach.
+Overall, the technical feasibility remains high due to mature underlying technologies, but the secure wallet architecture increases complexity and security requirements, necessitating additional development time and thorough testing phases.
 
 // filepath: 03-economics-and-token.md
 # 03. Economics and Token
@@ -213,25 +224,34 @@ LazaiTrader intentionally does not utilize a native token, focusing on sustainab
 
 ## Team and Experience
 
-* **Marton Szaplonczay - Founder, Lead Architect / Dev**
+ **Marton Szaplonczay - Founder, Lead Architect / Dev** | [LinkedIn](https://www.linkedin.com/in/marton-szaplonczay)
+  
   Lead Architect in Fortune 500 company's enterprise architecture team with specialized focus on AI and automation systems. Combines enterprise-grade technical expertise with startup agility and innovation mindset. Deep understanding of scalable system design, AI implementation, and automated trading algorithms. Proven ability to deliver sophisticated technical solutions within enterprise constraints while maintaining startup-level speed and adaptability.
 
-* **Marketing & Community Lead**
-  Experienced marketing professional who successfully guided LazaiTrader through competitive development programs, managing community engagement, user acquisition, and brand positioning strategies. Expertise in crypto community dynamics, social media growth, and technical product marketing. Core contributor to building and maintaining the 200+ active tester community while achieving significant market recognition.
+**Francis Masson - External Marketing & Community Consultant** | [LinkedIn](https://www.linkedin.com/in/francis-masson)
+ 
+  Strategic communication professional with strong experience in the oil and gas industry specializing in technology innovation storytelling, integrated campaign development, and stakeholder engagement across global markets. Proven expertise in building technical communities, managing complex disclosure processes, and translating innovation into compelling narratives through high-profile collaborations including MIT Technology Review partnerships and Web Summit presentations. Educational background in European Affairs and Energy Policy from College of Europe, with multilingual capabilities (French, English, German) and deep understanding of regulatory frameworks. Recently joined LazaiTrader as External Marketing & Community Consultant, bringing technical communication expertise and regulatory compliance knowledge to guide the platform through competitive development programs, with focus on building and maintaining the 200+ active tester community while achieving significant market recognition.
 
-* **External AI Consultant**
-  Senior AI specialist from reputable consulting corporation providing strategic guidance on machine learning algorithms, trading model optimization, and AI system architecture. Brings enterprise-level AI implementation experience and advanced algorithmic trading expertise to ensure platform competitiveness and technical excellence.
+**Alperen Aybar - External AI Consultant** | [LinkedIn](https://www.linkedin.com/in/alperen-aybar)
+  
+  Senior AI architect and innovation manager with 11+ years of enterprise technology experience at multiple Fortune 500 - technology automation and consumer goods, specializing in AI coordination, emerging technology integration, and digital transformation initiatives. Proven track record as Global IT AI Coordination Lead and Lead Architect for Technology & Innovation, with deep expertise in enterprise architecture, cross-functional collaboration, and strategic AI implementation across global organizations. Computer engineering background from Izmir Institute of Technology with extensive mobile software development and operational leadership experience. Recently engaged as external AI consultant for LazaiTrader, bringing enterprise-level AI implementation expertise, advanced algorithmic optimization knowledge, and strategic technology guidance to ensure platform competitiveness and technical excellence in the evolving fintech landscape.
 
-* **External Infrastructure Consultant**
+ **External Infrastructure Consultant**
   Infrastructure architect from established consulting firm specializing in scalable blockchain systems, security implementation, and high-performance trading infrastructure. Provides critical expertise in system reliability, security protocols, and enterprise-grade infrastructure design for financial applications.
 
 ## Special Sauce
 
-**Enterprise-Meets-Startup Excellence:** The team uniquely combines Fortune 500 enterprise architecture experience with startup innovation speed, ensuring LazaiTrader delivers enterprise-grade reliability while maintaining rapid development cycles and user-centric design.
+**Cross-Industry Enterprise Expertise:** The team uniquely combines Fortune 500 experience across diverse sectors - technology automation, consumer goods, and energy - providing comprehensive understanding of enterprise-grade systems, regulatory compliance, and global market dynamics that directly translates to fintech excellence.
+
+**Proven AI & Communication Leadership:** The team brings demonstrated experience in global AI coordination, enterprise AI implementation, technical community building, and high-profile partnerships, ensuring ability to both implement cutting-edge technology and effectively communicate complex innovations to diverse stakeholders.
+
+**Regulatory & Compliance Mastery:** Deep collective experience with complex disclosure processes across global business lines, European Affairs expertise, and multilingual regulatory framework knowledge provides critical capabilities for navigating fintech compliance requirements and international market expansion.
+
+**Enterprise-to-Startup Translation:** The team's unique ability to take Fortune 500-level technical rigor, communication strategies, and AI implementation approaches and adapt them for startup agility ensures LazaiTrader delivers institutional-grade reliability while maintaining rapid innovation cycles and user-focused development.
+
+**Strategic Consulting Network Integration:** By leveraging both internal enterprise expertise and external specialized consulting relationships, the team maintains lean operational structure while accessing enterprise-level guidance in AI optimization and infrastructure architecture, ensuring cost-effective scaling without compromising technical excellence.
 
 **Proven Market Execution:** The team has successfully navigated competitive blockchain development environments, built and maintained an engaged 200+ user community, and demonstrated measurable trading performance (82.15% ROI) - proving ability to execute from concept to market validation.
-
-**Strategic Consulting Network:** Access to reputable consulting expertise in both AI and infrastructure domains provides the team with enterprise-level guidance while maintaining lean operational structure and cost efficiency.
 
 **Revenue-First Philosophy:** Unlike teams focused on theoretical value propositions, this team has built a sustainable, proven business model that generates revenue through user success, with clear path to profitability and scalable growth trajectory.
 
@@ -240,18 +260,20 @@ LazaiTrader intentionally does not utilize a native token, focusing on sustainab
 
 ## Current Development State
 
-LazaiTrader has achieved significant milestones with recognition in a competitive blockchain development program, **200+ active testers**, and **verified live trading performance** of 82.15% ROI over 95 days with 126 documented trades. The platform is currently operational on testnet infrastructure with proven algorithm performance and established user community. The project is transitioning from incubation phase to production deployment, ready for Zircuit ecosystem integration.
+LazaiTrader has achieved significant milestones with recognition in a competitive blockchain development program, **200+ active testers**, and **verified live trading performance** of 82.15% ROI over 95 days with 126 documented trades. The platform is currently operational on testnet infrastructure with proven algorithm performance and established user community. **The non-custodial wallet architecture has been designed and is ready for implementation as a core production requirement.** The project is transitioning from incubation phase to production deployment, ready for Zircuit ecosystem integration.
 
 **Key Accomplishments:**
 * Live trading algorithm with verified 82.15% ROI performance
 * 5 years of backtesting validation on ETH-USDC pairs
 * Functional Telegram interface with multi-persona AI trading system
 * Strategy Vault with privacy-preserving analytics
+* **Non-custodial wallet architecture designed and specified**
 * Ultra-low operating cost structure ($30/month) ensuring sustainability
 * Break-even threshold achieved (15+ profitable users required, 200+ active testers)
 
 ## Tasks Required for Successful Launch
 
+* **Secure Wallet Implementation:** Deploy and test the non-custodial wallet system enabling users to maintain full control of their private keys while delegating specific trading permissions to AI agents.
 * **Zircuit Network Integration:** Complete migration and optimization for Zircuit testnet and mainnet deployment with enhanced performance and security features.
 * **Gud.tech Trading Engine Integration:** Deep integration with Gud.tech's advanced trading infrastructure for superior execution and liquidity access.
 * **Enhanced AI Capabilities:** Upgrade trading algorithms and expand persona offerings based on user feedback and market analysis.
@@ -260,42 +282,41 @@ LazaiTrader has achieved significant milestones with recognition in a competitiv
 
 ## Anticipated Timeline
 
-* **Months 1-2:** Platform stabilization, Zircuit testnet integration, and Gud.tech trading engine implementation
-* **Months 3-4:** Enhanced AI development, infrastructure migration, and mainnet preparation
-* **Months 5-6:** Production deployment, user onboarding, and ecosystem integrations
+* **Months 1-2:** Secure wallet development and testing, Zircuit testnet integration, and Gud.tech trading engine implementation
+* **Months 3-4:** Production deployment, enhanced AI development, infrastructure migration, and security auditing
+* **Months 5-6:** Mainnet launch with non-custodial trading, user onboarding, and ecosystem integrations
 
 ## Proposed Milestones and Budget
 
-| Milestone | Timeline | Budget Allocation | Success Criteria |
-|-----------|----------|------------------|------------------|
-## Proposed Milestones and Budget
+**Total Grant Request: $135,000**
 
-| Milestone | Timeline | Budget Allocation | Success Criteria |
-|-----------|----------|------------------|------------------|
-| **Testnet Optimization & Zircuit Integration** | Month 1-2 | $18,750 (25%) | • Platform stability improvements completed<br>• Dynamic wallet generation system implemented<br>• Zircuit testnet integration successful<br>• Gud.tech trading engine Phase 1 integration<br>• User feedback analysis from 200+ testers documented<br>• FAQ system and support documentation published |
-| **Enhanced Infrastructure & Advanced Features** | Month 3 | $15,000 (20%) | • Database migration from file-based to encrypted system<br>• Enhanced AI trading personas with improved algorithms<br>• Advanced user interface with better visualization<br>• 250+ active testnet users achieved<br>• Performance monitoring and analytics systems deployed |
-| **Mainnet Launch & Production Deployment** | Month 4 | $15,000 (20%) | • Zircuit mainnet deployment successful<br>• Real capital trading enabled with risk management protocols<br>• Revenue generation model operational (15% profit sharing)<br>• 30-50 users with live funds trading<br>• $3,000+ Total Value Locked milestone |
-| **User Growth & Ecosystem Integration** | Month 5 | $13,500 (18%) | • 75-100 active users with live capital trading<br>• $8,000+ Total Value Locked achieved<br>• Zircuit liquidity hub integration initiated<br>• Advanced analytics dashboard for users<br>• Revenue sustainability demonstrated ($1,200+ generated)<br>• Community growth to 500+ social media followers |
-| **Scale & Advanced Features** | Month 6 | $12,750 (17%) | • 150+ active users milestone<br>• $30,000+ TVL achieved<br>• Full Gud.tech integration optimization completed<br>• Advanced portfolio management features<br>• Privacy withdrawal feature (optional)<br>• Platform established as recognized Zircuit trading solution<br>• $2,250+ monthly revenue run rate |
+**Initial Payment: $33,750 (25%) - Upfront to commence development**
 
-**Total Grant Request: $75,000**
+| Milestone | Timeline | Success Criteria |
+|-----------|----------|------------------|
+| **Non-Custodial Architecture & Testnet Integration** | Month 1-2 | • Secure wallet system deployed and tested<br>• Non-custodial user wallet deployment operational<br>• Whitelisted DEX interaction system functional<br>• Zircuit testnet integration successful<br>• Gud.tech trading engine Phase 1 integration<br>• User wallet deployment flow documented and tested<br>• Security audit of wallet architecture initiated |
+| **Enhanced Infrastructure & Security** | Month 3 | • Wallet security audit completed<br>• Database migration including wallet address management<br>• Enhanced AI trading personas with improved algorithms<br>• Advanced user interface for wallet management<br>• 250+ active testnet users with deployed wallets<br>• Performance monitoring for secure wallet operations |
+| **Mainnet Launch & Production Deployment** | Month 4 | • Zircuit mainnet deployment with audited contracts<br>• Real capital trading enabled through secure wallets<br>• Revenue generation model operational (15% profit sharing)<br>• 30-50 users with live funds trading<br>• $3,000+ Total Value Locked in user wallets<br>• Emergency fund recovery mechanisms tested |
+| **User Growth & Advanced Features** | Month 5 | • 75-100 active users with live capital trading<br>• $8,000+ Total Value Locked achieved<br>• Advanced analytics dashboard for users<br>• Multi-agent support within user wallets implemented<br>• Revenue sustainability demonstrated ($1,200+ generated)<br>• Community growth to 500+ social media followers |
+| **Scale & Ecosystem Integration** | Month 6 | • 150+ active users milestone<br>• $30,000+ TVL in secure wallets achieved<br>• Full Gud.tech integration optimization completed<br>• Advanced portfolio management through wallet system<br>• Agent revocation and emergency controls validated<br>• Platform established as premier Zircuit trading solution<br>• $2,250+ monthly revenue run rate |
+
+**Remaining $101,250 (75%) disbursed upon milestone completion**
 
 ## Extended Roadmap (Post-Grant)
 
 **Months 7-12:**
-* Cross-chain expansion beyond Zircuit
-* Advanced portfolio management tools  
-* Enhanced privacy features and withdrawals
-* Community governance features
-
-## Extended Roadmap (Post-Grant)
-
-**Months 7-12:**
-* Cross-chain expansion beyond Zircuit
-* Institutional client features and API access
+* Cross-chain secure wallet deployment
+* Advanced multi-signature and time-lock features
+* Institutional client features with enhanced permission systems
 * Advanced portfolio management tools
-* Community governance implementation
-* Enhanced privacy features and withdrawals
+* Community governance implementation for protocol upgrades
+* Enhanced privacy features and gasless operations
+
+## Security and Risk Management Priority
+
+Given the critical nature of the secure wallet architecture, **25% of the total budget is allocated to the initial development and security auditing phase**. This ensures proper implementation before any real capital deployment, maintaining LazaiTrader's commitment to user fund security while enabling advanced automation capabilities.
+
+The phased approach ensures that each milestone validates both technical functionality and security measures before proceeding to increased capital deployment and user adoption targets.
 
 // filepath: README.md
 # LazaiTrader
@@ -309,9 +330,11 @@ LazaiTrader has achieved significant milestones with recognition in a competitiv
 
 LazaiTrader is an intelligent multi-agent trading system accessible through Telegram that revolutionizes crypto trading by allowing users to select specialized AI trading personas, each with distinct strategies and risk profiles. **Recognized in competitive blockchain development programs**, LazaiTrader has demonstrated exceptional performance with **82.15% ROI over 95 days** in live trading and currently serves **200+ active testers**.
 
-Transitioning to Zircuit from previous blockchain development work, LazaiTrader employs a revolutionary **pure profit-sharing model** (15% of profits only) that perfectly aligns platform success with user profitability. With zero upfront costs and ultra-low operating expenses ($30/month), the platform has achieved break-even and maintains a sustainable growth trajectory.
+**Secure Non-Custodial Architecture:** LazaiTrader implements a secure wallet system where users retain complete control of their private keys while enabling AI agents to execute authorized trades on their behalf. This architecture ensures user fund security with sophisticated automation capabilities.
 
-The system leverages advanced algorithms beyond traditional technical indicators, offering both automated execution and signal-only modes through planned deep integration with Gud.tech's trading engine. LazaiTrader transforms sophisticated trading strategies into accessible tools while maintaining the security and decentralization principles of the Zircuit ecosystem.
+Transitioning to Zircuit from previous blockchain development work, LazaiTrader employs a **pure profit-sharing model** (15% of profits only) that perfectly aligns platform success with user profitability. With zero upfront costs and ultra-low operating expenses ($30/month), the platform has achieved break-even and maintains a sustainable growth trajectory.
+
+The system leverages advanced algorithms beyond traditional technical indicators, offering both automated execution through secure wallet management and signal-only modes through planned deep integration with Gud.tech's trading engine. LazaiTrader transforms sophisticated trading strategies into accessible tools while maintaining the security and decentralization principles of the Zircuit ecosystem.
 
 ## Table of Contents
 
