@@ -1,6 +1,6 @@
 # 03. Economics and Token
 
-*For additional financial details, projections, and revenue analysis, please refer to the revenue.md file in this repository.*
+*For additional financial details, projections, and revenue analysis, please refer to the 1. [Revenue.md](./revenue.md) file in this repository.*
 
 ## Protocol Economics
 
