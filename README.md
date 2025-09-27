@@ -26,7 +26,7 @@ The system leverages advanced algorithms beyond traditional technical indicators
 
 ## Contact Information
 
-* **Website:** [LazaiTrader.gMetis.io](https://LazaiTrader.gmetis.io)
+* **Website:** [LazaiTrader.com](https://LazaiTrader.com)
 * **X.com:** [@LazaiTrader](https://x.com/lazaitrader)
 * **Founder contact:** [@SmartOnStuff](https://t.me/SmartOnStuff)
 * **Telegram Bot:** [@LazaiTrader_bot](https://t.me/LazaiTrader_bot)
